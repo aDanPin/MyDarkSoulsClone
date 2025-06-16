@@ -1,0 +1,65 @@
+# Ignore Visual Studio / Rider / Xcode files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj
+
+# Ignore Unreal build folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore compiled source files
+*.obj
+*.pdb
+*.exe
+*.dll
+*.app
+*.lib
+*.dylib
+*.class
+*.jar
+
+# Ignore generated project files
+*.opensdf
+*.log
+*.tlog
+*.cache
+*.csproj
+*.vcxproj
+*.vcxproj.filters
+*.props
+*.targets
+
+# Ignore specific Unreal Engine files
+*.local
+*.db
+*.db-journal
+*.tmp
+
+# Ignore Crash and Auto-Saves
+Autosaves/
+Backup/
+*.autosave
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# If using Rider with Unreal Plugin
+.vscode/
+.idea/
+.rider/
